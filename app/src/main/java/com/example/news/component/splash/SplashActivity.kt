@@ -3,11 +3,13 @@ package com.example.news.component.splash
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.FragmentManager
+import com.example.news.MainActivity
 import com.example.news.R
 import com.example.news.activity.BaseLogicActivity
 
@@ -18,6 +20,9 @@ import com.example.news.activity.BaseLogicActivity
 
 class SplashActivity : BaseLogicActivity() {
 //    private lateinit var supportFragmentManage: FragmentManager
+
+    private lateinit var welcomeView: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -33,6 +38,7 @@ class SplashActivity : BaseLogicActivity() {
     override fun initViews() {
         super.initViews()
         // 设置界面
+        welcomeView = findViewById<Button>(R.id.welcome)
     }
 
     override fun initDatum() {
@@ -40,6 +46,13 @@ class SplashActivity : BaseLogicActivity() {
         // 设置数据
 
         showTermsServiceAgreementDialog()
+    }
+
+    override fun initListeners() {
+        super.initListeners()
+        welcomeView.setOnClickListener{
+            startActivityAfterFinishThis(MainActivity::class.java)
+        }
     }
 
     private fun showTermsServiceAgreementDialog() {

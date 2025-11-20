@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">News</string>
     <string name='writer_name'>Lisizhe</string>
+    <string name='welcome'>立即体验</string>
     <string name='term_service_privacy'>服务条款和隐私协议提示</string>
 
     <string name="term_service_privacy_content">
