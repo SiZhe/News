@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorLightWhite" format="color"/>
+<!--    分割线颜色-->
+    <attr name="colorDivider" format="color"/>
+</resources>

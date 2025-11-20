@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name='writer_name'>Lisizhe</string>
+    <string name='term_service_privacy'>服务条款和隐私协议提示</string>
+
+    <string name="term_service_privacy_content">
+    <Data><![CDATA[
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎使用本应用！感谢您选择我们的产品与服务。为了保障您的合法权益、规范双方权利义务，并明确您的个人信息处理规则，在您注册、登录或使用本应用的任何功能前，请务必仔细阅读并充分理解《服务条款》与《隐私协议》的全部内容。</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下为核心信息说明：</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.《服务条款》将明确本应用提供的服务范围、用户使用规范、双方权利义务、免责声明及争议解决方式，您的使用行为需遵守相关约定；</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.《隐私协议》将详细说明我们收集、使用、存储、传输、共享您个人信息的目的、方式、范围及保护措施，您可了解个人信息的权利行使路径；</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 若您对上述协议有任何疑问、异议或需要进一步解释，可通过应用内客服渠道联系我们咨询。</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您点击“同意”、完成注册登录或继续使用本应用的任何功能，即表示您已完全阅读、理解并接受《服务条款》与《隐私协议》的全部条款，我们将严格按照相关法律法规及协议约定，保护您的合法权益与个人信息安全。</p>
+    ]]> </Data>
+    </string>
+
+
+
+    <string name='agree'>同意</string>
+</resources>
